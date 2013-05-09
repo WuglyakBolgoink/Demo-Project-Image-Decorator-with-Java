@@ -94,7 +94,7 @@ public class MeinTest extends JFrame {
 			              @Override
 						public void run(){
 //			                 final String file = "/Users/Admin/Google Drive/workspace_java/DecoratorImage/bild.jpg";
-			                 final String file ="/Users/Admin/Google Drive/workspace_java/DecoratorImage/AVATAR.png";
+//			                 final String file ="/Users/Admin/Google Drive/workspace_java/DecoratorImage/AVATAR.png";
 
 //			                 final MeinTest tRainbowImage = new MeinTest("RainbowImage",new RainbowImage(300));
 //			                 final MeinTest tFileImage = new MeinTest("FileImage",new FileImage(file));
@@ -126,7 +126,7 @@ public class MeinTest extends JFrame {
 //			                 System.out.println(z.getPixel(1, z.getHeight()));
 
 			                 final RainbowImage tRainbowImage = new RainbowImage(300);
-			                 System.out.println(tRainbowImage.getPixel(0, 311));
+			                 System.out.println(tRainbowImage.getPixel(0, Integer.parseInt("301")));
 			                 final MeinTest a = new MeinTest("rot_rain", new Rotated(tRainbowImage));
 			              }
 			         });
